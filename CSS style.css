@@ -1,0 +1,17 @@
+p {
+  background-color: gold;
+  font-family: verdana;
+  font-size: 40px;
+  border-style: Double;
+  border-width: 10px;
+  border-radius: 0px
+  border-color: green;
+  text-align: center;
+}
+
+p.s2 {
+  background-color: silver;
+  font-family: verdana;
+  font-size: 40px;
+  text-align: center;
+}
