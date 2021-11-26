@@ -2,18 +2,22 @@
 <html>
 <body>
 
-C: <input type="text" id="myText" value="0">
+<h3>C -> F</h3>
 
-<p>Click the button to change C to F.</p>
+<input type="text" id="myText">
+
+<p>Click the "Try it" button to change C to F.</p>
 
 <button onclick="myFunction()">Try it</button>
 
+<p id="demo"></p>
+
 <script>
 function myFunction() {
-    document.getElementById("myText").value = "???";
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x * 9/5 + 32;
+;
 }
-
-
 </script>
 
 </body>
